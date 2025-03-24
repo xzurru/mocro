@@ -24,5 +24,5 @@ Clone the repository and compile the interpreter:
 
 ```bash
 git clone https://github.com/xzurru/mocro.git
-cd mocro-lang
+cd mocro
 make
