@@ -10,3 +10,19 @@ mocro is an open-source programming language inspired by Lua but designed to be 
 
 ## Repository Structure
 
+
+## Getting Started
+
+### Prerequisites
+
+- A C compiler (such as GCC)
+- Make (optional, for building via the provided Makefile)
+
+### Building
+
+Clone the repository and compile the interpreter:
+
+```bash
+git clone https://github.com/xzurru/mocro-lang.git
+cd mocro-lang
+make
