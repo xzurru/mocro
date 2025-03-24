@@ -1,4 +1,4 @@
-# Advanced mocro Language
+# mocro Language
 
 mocro is an open-source programming language inspired by Lua, enhanced to be better, faster, and more efficient. This advanced version incorporates:
 
