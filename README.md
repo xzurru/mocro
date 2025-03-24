@@ -1,32 +1,40 @@
-# mocro Language
+# Advanced mocro Language
 
-mocro is an open-source programming language inspired by Lua but designed to be better, faster, and more efficient. This repository contains a minimal interpreter for mocro, written in C.
+mocro is an open-source programming language inspired by Lua, enhanced to be better, faster, and more efficient. This advanced version incorporates:
 
-## Features
+- **Advanced Syntax & Features:**
+  - Optional type annotations for variables and function parameters.
+  - Pattern matching for expressive control flow.
+  - Enhanced loops (e.g., foreach) for easier iteration over collections.
+  - Lambda expressions and anonymous functions for functional programming.
 
-- Lua-inspired syntax and semantics
-- Lightweight and efficient interpreter
-- Minimal arithmetic expression evaluator (as a starting point)
-- **Advanced Syntax:** Optional type annotations, pattern matching, lambda (anonymous) functions, and enhanced loop constructs.
-- **Performance:** Built-in JIT compiler support (stub for LLVM integration) and an optimized garbage collector.
-- **Extensive Standard Library:** Modules for networking, filesystem, JSON/XML processing, multithreading, and a Foreign Function Interface (FFI) for native library integration.
-- **Concurrency:** Support for coroutines and native threads with synchronization primitives.
-- **Developer Tools:** VS Code extension for syntax highlighting, autocompletion, and debugging support.
-- **Interoperability:** Language bindings for C and Python, and a plugin system for easy extensibility.
+- **Performance Optimization:**
+  - Integration of a JIT compiler (via LLVM) to boost runtime performance.
+  - Optimized memory management with an efficient garbage collector.
 
-## Repository Structure
+- **Standard Library Extensions:**
+  - Modules for networking, filesystem, JSON/XML processing, and multithreading.
+  - A Foreign Function Interface (FFI) for seamless integration with native C/C++ libraries.
 
+- **Concurrency & Parallelism:**
+  - Support for coroutines and lightweight threads for asynchronous programming.
+  - Synchronization primitives (mutexes, semaphores) for safe parallel execution.
+
+- **Tooling & Developer Experience:**
+  - A VS Code extension for syntax highlighting, autocompletion, and debugging.
+  - A package management and build tool to ease project scaling.
 
 ## Getting Started
 
 ### Prerequisites
 
-- A C compiler (such as GCC)
-- Make (optional, for building via the provided Makefile)
+- A C compiler (e.g., GCC)
+- Make (for building the project)
+- LLVM (if you want to experiment with the JIT features)
 
 ### Building
 
-Clone the repository and compile the interpreter:
+Clone the repository and build the interpreter/compiler:
 
 ```bash
 git clone https://github.com/xzurru/mocro.git
