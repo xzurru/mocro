@@ -1,18 +1,17 @@
-# mocro Biolothek
+# mocro BioLibrary
 
-Dies ist eine Beispiel-Biolothek für die Programmiersprache **mocro** – inspiriert von Lua.  
-Die Bibliothek bietet grundlegende biologische Funktionen wie Zellteilung, Organismuswachstum, Zellstoffwechsel, DNA-Replikation und Protein-Synthese.
+This repository contains the **mocro BioLibrary** – a sample library for the mocro programming language inspired by Lua. It provides basic biological functions such as cell division, organism growth, cell metabolism, DNA replication, and protein synthesis.
 
-## Inhalte
+## Contents
 
-- **biolothek.mocro**: Die Bibliothek mit den Funktionen.
-- **example.mocro**: Ein Beispielprogramm, das die Bibliothek nutzt.
-- **vscode-extension/**: Eine minimale VS Code-Erweiterung zur Syntaxhervorhebung für `.mocro`-Dateien.
+- **biolibrary.mocro**: The library with all the functions.
+- **example.mocro**: A sample program using the library.
+- **vscode-extension/**: A minimal VS Code extension for syntax highlighting in `.mocro` files.
 
-## Installation und Nutzung
+## Installation and Usage
 
-### mocro Biolothek
+### Using the BioLibrary
 
-1. Lade das Repository herunter oder klone es:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/dein-username/mocro-biolothek.git
+   git clone https://github.com/your-username/mocro-biolibrary.git
