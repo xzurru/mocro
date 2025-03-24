@@ -1,0 +1,18 @@
+-- File: example.mocro
+
+-- Load the BioLibrary
+local BioLib = require("biolibrary")
+
+local cells = 100
+print("After cell division: " .. BioLib.cellDivision(cells))
+
+local status = BioLib.organismGrowth(3)
+print("Organism status (age 3): " .. status)
+
+local energyConsumption = BioLib.cellMetabolism(50, 1.2)
+print("Energy consumption: " .. energyConsumption)
+
+print("DNA Replication: " .. BioLib.dnaReplication("ATCG"))
+
+local protein = BioLib.proteinSynthesis({"A", "C", "G", "T"})
+print("Protein synthesis: " .. protein)
