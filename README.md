@@ -23,6 +23,6 @@ mocro is an open-source programming language inspired by Lua but designed to be 
 Clone the repository and compile the interpreter:
 
 ```bash
-git clone https://github.com/xzurru/mocro-lang.git
+git clone https://github.com/xzurru/mocro.git
 cd mocro-lang
 make
