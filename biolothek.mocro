@@ -1,0 +1,38 @@
+-- Datei: biolothek.mocro
+
+Biolothek = {}
+
+-- Verdoppelt die Zellzahl (Zellteilung)
+function Biolothek.zellteilung(zellanzahl)
+    return zellanzahl * 2
+end
+
+-- Klassifiziert den Organismus nach Alter
+function Biolothek.organismusWachstum(alter)
+    if alter < 5 then
+        return "jung"
+    else
+        return "reif"
+    end
+end
+
+-- Berechnet den Energieverbrauch des Zellstoffwechsels
+function Biolothek.zellstoffwechsel(energie, faktor)
+    return energie * faktor
+end
+
+-- Simuliert eine einfache DNA-Replikation
+function Biolothek.dnaReplikation(dna)
+    return dna .. "_replicated"
+end
+
+-- Simuliert die Proteinsynthese aus einer Liste von Aminosäuren
+function Biolothek.proteinSynthesis(aminoSaeuren)
+    local protein = ""
+    for i, amino in ipairs(aminoSaeuren) do
+        protein = protein .. amino
+    end
+    return protein
+end
+
+return Biolothek
